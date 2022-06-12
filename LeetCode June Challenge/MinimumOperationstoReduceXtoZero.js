@@ -9,6 +9,7 @@ var minOperations = function(nums, x) {
         sum += element;
         while(sum > target){
             sum -= nums[left++];
+            
         }
         if(sum === target){
             res = Math.max(res, index - left + 1);
