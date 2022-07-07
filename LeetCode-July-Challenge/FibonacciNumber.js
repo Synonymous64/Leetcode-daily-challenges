@@ -7,5 +7,3 @@ var fib = function(n) {
 };
 
 console.log(fib(3));
-
-
