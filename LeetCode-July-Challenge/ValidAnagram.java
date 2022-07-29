@@ -1,4 +1,3 @@
-
 class Solution {
     public boolean isAnagram(String s, String t) {
         int lenS = s.length();
