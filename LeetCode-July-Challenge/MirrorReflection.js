@@ -1,4 +1,3 @@
-
 var mirrorReflection = function(p, q) {
     let extension = q, reflection = p;
     while(extension % 2 == 0 && reflection % 2 == 0){
