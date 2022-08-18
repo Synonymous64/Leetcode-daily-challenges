@@ -5,6 +5,19 @@ var uniqueMorseRepresentations = function(words) {
         let tempStr = "";
         for(let char of word){
             let letters = char.charCodeAt(0) - 97;
+            tempStr += morse[letters];    
+        }
+        mySet.add(tempStr);
+    };
+    return mySet.size;
+}
+var uniqueMorseRepresentations3 = function(words) {
+    let morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."];
+    let mySet = new Set();
+    for(let word of words){
+        let tempStr = "";
+        for(let char of word){
+            let letters = char.charCodeAt(0) - 97;
             tempStr += morse[letters];
         }
         mySet.add(tempStr);
@@ -18,3 +31,4 @@ var uniqueMorseRepresentations1 = function(words) {
 let words = ["gin","zen","gig","msg"];
 console.log(uniqueMorseRepresentations(words));
 console.log(uniqueMorseRepresentations1(words));
+console.log(uniqueMorseRepresentations3(words));
