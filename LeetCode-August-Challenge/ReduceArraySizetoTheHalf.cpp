@@ -14,7 +14,7 @@ public:
             if(sum <= n/2) return count;
         }
         return count;
-    }
+    } 
 };
 int main(){
     vector<int> arr = {3,3,3,3,5,5,5,2,2,7};
