@@ -21,6 +21,7 @@ class Solution {
         }
         for(String eq : equations){
             int a = eq.charAt(0) - 'a';
+            
             int b = eq.charAt(3) - 'a';
             if(eq.charAt(1) == '!' && find(a) == find(b)) return false;
         }
