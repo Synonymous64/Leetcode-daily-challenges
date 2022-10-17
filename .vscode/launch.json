@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Launch MinimumDifficultyofaJobSchedule",
+      "request": "launch",
+      "mainClass": "MinimumDifficultyofaJobSchedule",
+      "projectName": "Leetcode Challenges_1746fd8c"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
