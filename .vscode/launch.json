@@ -15,8 +15,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/synonymous/Desktop/Leetcode Challenges/LeetCode June Challenge",
-      "program": "/home/synonymous/Desktop/Leetcode Challenges/LeetCode June Challenge/build/Debug/outDebug",
+      "cwd": "/home/synonymous/Desktop/Leetcode Challenges",
+      "program": "/home/synonymous/Desktop/Leetcode Challenges/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
