@@ -10,7 +10,7 @@ var leafSimilar = function (root1, root2) {
         if (!root.left && !root.right) sum.push(root.val);
         helper(root.left, sum);
         helper(root.right, sum);
-    }g
+    }
     helper(root1, root1Val);
     helper(root2, root2Val);
     if (root1Val.length !== root2Val.length) return false;
