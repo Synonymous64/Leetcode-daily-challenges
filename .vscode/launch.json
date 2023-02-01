@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch GreatestCommonDivisorofStrings",
+      "request": "launch",
+      "mainClass": "GreatestCommonDivisorofStrings",
+      "projectName": "Leetcode Challenges_1746fd8c"
+    },
+    {
+      "type": "java",
       "name": "Launch MinimumDifficultyofaJobSchedule",
       "request": "launch",
       "mainClass": "MinimumDifficultyofaJobSchedule",
