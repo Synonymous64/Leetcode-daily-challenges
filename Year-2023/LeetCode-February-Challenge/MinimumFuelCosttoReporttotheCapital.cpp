@@ -2,7 +2,7 @@
 using namespace std;
 class Solution {
 public:
-    long long ans = 0; int s;git 
+    long long ans = 0; int s;
 long long minimumFuelCost(vector<vector<int>>& roads, int seats) {
     vector<vector<int>> graph(roads.size() + 1); s = seats;
     for (vector<int>& r: roads) {
