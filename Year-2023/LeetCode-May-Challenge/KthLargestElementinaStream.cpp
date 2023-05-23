@@ -13,7 +13,7 @@ public:
     int add(int val) {
         if(pq.size() < kth) pq.push(val);
         else if(pq.top() < val) pq.pop(), pq.push(val);
-        return pq.top();g
+        return pq.top();
     }
 };
 
