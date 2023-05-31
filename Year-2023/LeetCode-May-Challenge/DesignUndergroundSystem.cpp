@@ -5,7 +5,7 @@ public:
     UndergroundSystem() {
 
     }
-    map<int,pair<string, int>>arrival; 
+    map<int,pair<string, int>>arrival;
     map<string,pair<int,int>> routes;
     void checkIn(int id, string stationName, int t) {
         arrival[id] =  {stationName, t};
